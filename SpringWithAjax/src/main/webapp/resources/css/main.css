@@ -1,0 +1,32 @@
+#mydiv{
+  	border: 3px solid green;
+  	width:250px;
+  	height:auto;
+  	display:none;
+}
+
+h1{
+	color:red;
+}
+
+body {
+	font-family: Calibri;
+}
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid;
+}
+
+th {
+	text-align: left;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 5px 5px; white-space: nowrap; overflow: hidden; font-size:22px}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #3399FF; }
