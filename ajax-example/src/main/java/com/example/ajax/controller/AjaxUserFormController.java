@@ -25,7 +25,6 @@ public class AjaxUserFormController {
 	
 	@RequestMapping(value="/addAjaxUser",method=RequestMethod.POST)
     public @ResponseBody JsonResponse addUser(@RequestBody User user, BindingResult result ){
-			System.out.println("Controller hit");
             JsonResponse res = new JsonResponse();
             ValidationUtils.rejectIfEmpty(result, "name", "Name can not be empty.");
             ValidationUtils.rejectIfEmpty(result, "education", "Educatioan not be empty");
