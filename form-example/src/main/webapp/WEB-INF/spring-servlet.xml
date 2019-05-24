@@ -10,9 +10,9 @@
                         http://www.springframework.org/schema/context/spring-context.xsd
                         http://www.springframework.org/schema/mvc 
                         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
-
-	<context:component-scan base-package="com.example" />
+	
 	<mvc:annotation-driven />
+	<context:component-scan base-package="com.example.form" />
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	
 	<bean id="viewResolver"

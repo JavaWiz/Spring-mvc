@@ -20,7 +20,7 @@
 <body>
 	<h2>Spring's form tags example</h2>
 
-	<form:form method="POST" commandName="customer">
+	<form:form method="POST" modelAttribute="customer">
 
 		<%-- <form:errors path="*" cssClass="errorblock" element="div" /> --%>
 
