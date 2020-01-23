@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.javawiz.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.form.model.User;
+import com.javawiz.form.model.User;
 
 @Controller
 public class UserController {
@@ -20,7 +20,7 @@ public class UserController {
 	}
 	
 	@Autowired
-	com.example.service.IUserService iUserService;
+	com.javawiz.service.IUserService iUserService;
 	
 	@RequestMapping(value="addUser",method = RequestMethod.POST)
 	public @ResponseBody

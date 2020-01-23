@@ -1,4 +1,4 @@
-package com.example.model;
+package com.javawiz.model;
 
 public class Times {
 	private String name;

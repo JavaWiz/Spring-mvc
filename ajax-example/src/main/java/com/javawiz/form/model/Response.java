@@ -1,4 +1,4 @@
-package com.example.form.model;
+package com.javawiz.form.model;
 
 public class Response {
 	private String response;

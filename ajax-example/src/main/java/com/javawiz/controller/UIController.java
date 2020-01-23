@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.javawiz.controller;
 
 import java.io.IOException;
 import java.util.Date;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.model.Times;
+import com.javawiz.model.Times;
 
 @Controller
 public class UIController {

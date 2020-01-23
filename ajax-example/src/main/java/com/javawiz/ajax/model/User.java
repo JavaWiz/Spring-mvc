@@ -1,4 +1,4 @@
-package com.example.ajax.model;
+package com.javawiz.ajax.model;
 public class User {
 
     private String name = null;

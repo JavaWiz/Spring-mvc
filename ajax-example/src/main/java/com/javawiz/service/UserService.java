@@ -1,8 +1,8 @@
-package com.example.service;
+package com.javawiz.service;
 
 import org.springframework.stereotype.Service;
 
-import com.example.form.model.User;
+import com.javawiz.form.model.User;
 
 @Service
 public class UserService implements IUserService{

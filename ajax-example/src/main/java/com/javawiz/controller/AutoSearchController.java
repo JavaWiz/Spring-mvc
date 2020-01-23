@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.javawiz.controller;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.model.DummyDB;
-import com.example.model.Tag;
-import com.example.model.User;
+import com.javawiz.model.DummyDB;
+import com.javawiz.model.Tag;
+import com.javawiz.model.User;
 
 @Controller
 public class AutoSearchController {

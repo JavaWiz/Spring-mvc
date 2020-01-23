@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.javawiz.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.form.model.Contact;
-import com.example.form.model.RequestForm;
-import com.example.form.model.Response;
+import com.javawiz.form.model.Contact;
+import com.javawiz.form.model.RequestForm;
+import com.javawiz.form.model.Response;
 
 @Controller
 public class TableController {

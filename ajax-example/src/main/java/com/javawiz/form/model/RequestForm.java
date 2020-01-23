@@ -1,4 +1,4 @@
-package com.example.form.model;
+package com.javawiz.form.model;
 
 import java.util.List;
 
